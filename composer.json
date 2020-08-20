@@ -1,0 +1,59 @@
+{
+  "name": "codicastudio/novacron",
+  "description": "A noobs worthless garbage, just learning.",
+  "keywords": [
+      "worthless garabage by a noob."
+  ],
+  "homepage": "https://github.com/codicastudio/admin-cron",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "codicastudiodev@gmail.com",
+          "homepage": "https://codicastudio.dev",
+          "role": "Developer"
+      }
+  ],
+  "scripts": {
+    "test": "phpunit && npm run test"
+  },
+  "require": {
+    "php": "^7.4.8",
+    "owenmelbz/nova-radio-field": "^0.0.5",
+    "studio/laravel-totem": "^4.0.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "laravel/nova": "~1.0",
+    "orchestra/testbench": "^5.0",
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "codicastudio\\Novacron\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "codicastudio\\Novacron\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "codicastudio\\Novacron\\ToolServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": {
+    "remote": {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  }
+}
