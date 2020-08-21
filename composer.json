@@ -18,7 +18,7 @@
     "test": "phpunit && npm run test"
   },
   "require": {
-    "php": "^7.4.8",
+    "php": "^7.4.0",
     "owenmelbz/nova-radio-field": "^0.0.5",
     "studio/laravel-totem": "^4.0.0"
   },
